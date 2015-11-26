@@ -5,7 +5,11 @@
  */
 package de.paulscode.graphmatrix;
 
-public class Main {
+/**
+ *
+ * @author Paul Knulst
+ */
+public class FastTest {
 
     static boolean[][] mat = {
         {false, true, true, true},
@@ -15,9 +19,9 @@ public class Main {
     };
 
     public static void main(String[] args) throws Exception {
-        Main.testWithFixedMatrix4x4(mat);
+        FastTest.testWithFixedMatrix4x4(mat);
         System.out.println("====================================");
-        Main.test2(mat);
+        FastTest.test2(mat);
     }
 
     public static void testWithFixedMatrix4x4(boolean[][] matrix) throws Exception {
