@@ -94,6 +94,7 @@ public class MatrixTest {
 
     /**
      * Test of getCompleteNodes method, of class GraphMatrix.
+     * @throws java.lang.Exception
      */
     @Test
     public void testCalculate() throws Exception {
