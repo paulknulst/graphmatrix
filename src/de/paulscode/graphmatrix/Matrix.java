@@ -11,7 +11,7 @@ public class Matrix {
     private final boolean[] completeNodes;
     private final int[] inputNodes, outputNodes;
 
-    public Matrix(boolean[][] matrix) throws Exception {
+    public Matrix(boolean[][] matrix) throws IllegalArgumentException {
         this.matrix = matrix;
         this.amountOfNodes = matrix.length;
         for (int i = 0; i < amountOfNodes; i++) {

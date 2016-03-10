@@ -86,14 +86,16 @@ public class MatrixTest {
         boolean exception = false;
         try {
             Matrix instance = new Matrix(wrongMatrix);
-        } catch (Exception ex) {
+        } catch (final IllegalArgumentException ex) {
             exception = true;
         }
         assertTrue(exception);
+
     }
 
     /**
      * Test of getCompleteNodes method, of class GraphMatrix.
+     *
      * @throws java.lang.Exception
      */
     @Test
